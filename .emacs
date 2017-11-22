@@ -35,7 +35,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (json-mode fill-column-indicator yaml-mode exec-path-from-shell flycheck helm-projectile magit atom-one-dark-theme)))
+    (markdown-mode json-mode fill-column-indicator yaml-mode exec-path-from-shell flycheck helm-projectile magit atom-one-dark-theme)))
  '(scroll-bar-mode nil)
  '(tab-width 4)
  '(tool-bar-mode nil))
