@@ -38,6 +38,7 @@
    (quote
     (markdown-mode json-mode fill-column-indicator yaml-mode exec-path-from-shell flycheck helm-projectile magit atom-one-dark-theme)))
  '(scroll-bar-mode nil)
+ '(show-paren-mode t)
  '(tab-width 4)
  '(tool-bar-mode nil))
 (custom-set-faces
