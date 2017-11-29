@@ -27,6 +27,7 @@
    (quote
     ("59171e7f5270c0f8c28721bb96ae56d35f38a0d86da35eab4001aebbd99271a8" default)))
  '(electric-pair-mode t)
+ '(fci-rule-color "#d0bf8f")
  '(fill-column 80)
  '(global-hl-line-mode t)
  '(indent-tabs-mode nil)
