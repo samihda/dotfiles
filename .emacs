@@ -31,6 +31,7 @@
  '(fill-column 80)
  '(global-hl-line-mode t)
  '(indent-tabs-mode nil)
+ '(inhibit-startup-screen t)
  '(js-indent-level 2)
  '(make-backup-files nil)
  '(menu-bar-mode nil)
