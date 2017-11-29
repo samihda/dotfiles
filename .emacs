@@ -48,6 +48,10 @@
  ;; If there is more than one, they won't work right.
  )
 
+(add-hook 'js-mode-hook 'linum-mode)
+(add-hook 'js-mode-hook 'column-number-mode)
+(add-hook 'js-mode-hook 'flycheck-mode)
+
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
