@@ -52,6 +52,16 @@
 (add-hook 'js-mode-hook 'column-number-mode)
 (add-hook 'js-mode-hook 'flycheck-mode)
 
+(defun toggle-line-spacing ()
+  "Toggles line-spacing value between 0 and 0.5"
+  (interactive)
+  (cond ((eq line-spacing nil)
+         (setq line-spacing 0.5))
+        ((= line-spacing 0)
+         (setq line-spacing 0.5))
+        (t
+         (setq line-spacing 0))))
+
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
