@@ -29,6 +29,7 @@
  '(electric-pair-mode t)
  '(fci-rule-color "#d0bf8f")
  '(fill-column 80)
+ '(gc-cons-threshold 100000000)
  '(global-hl-line-mode t)
  '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
