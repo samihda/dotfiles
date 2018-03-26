@@ -29,6 +29,7 @@
    (quote
     ("59171e7f5270c0f8c28721bb96ae56d35f38a0d86da35eab4001aebbd99271a8" default)))
  '(electric-pair-mode t)
+ '(electric-quote-mode t)
  '(fci-rule-color "#d0bf8f")
  '(fill-column 80)
  '(gc-cons-threshold 100000000)
