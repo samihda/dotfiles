@@ -32,6 +32,9 @@
  '(electric-quote-mode t)
  '(fci-rule-color "#d0bf8f")
  '(fill-column 80)
+ '(flycheck-disabled-checkers
+   (quote
+    (javascript-standard javascript-jscs javascript-jshint)))
  '(gc-cons-threshold 100000000)
  '(global-hl-line-mode t)
  '(indent-tabs-mode nil)
