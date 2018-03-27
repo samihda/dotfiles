@@ -1,10 +1,12 @@
 #!/bin/bash
 
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/samihda/dotfiles.git .dotfiles-tmp
+cd
 
-rm -rf $HOME/.dotfiles-tmp/.git
-cp -R $HOME/.dotfiles-tmp/. $HOME/
-rm -rf $HOME/.dotfiles-tmp/
+git clone --separate-git-dir=.dotfiles https://github.com/samihda/dotfiles.git .dotfiles-tmp
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+rm -rf .dotfiles-tmp/.git
+cp -R .dotfiles-tmp/. ./ # WARNING: may override existing files
+rm -rf .dotfiles-tmp/
+
+alias dotfiles='/usr/bin/git --git-dir=.dotfiles/ --work-tree=$HOME'
 dotfiles config status.showUntrackedFiles no
