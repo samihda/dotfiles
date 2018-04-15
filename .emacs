@@ -10,31 +10,19 @@
 ;; 	     '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
-(when (memq window-system '(mac ns x))
-  (exec-path-from-shell-initialize))
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-faces-vector
-   [default default default italic underline success warning error])
- '(ansi-color-names-vector
-   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(blink-cursor-mode nil)
- '(css-indent-offset 2)
  '(custom-enabled-themes (quote (atom-one-dark)))
  '(custom-safe-themes
    (quote
     ("59171e7f5270c0f8c28721bb96ae56d35f38a0d86da35eab4001aebbd99271a8" default)))
  '(electric-pair-mode t)
  '(electric-quote-mode t)
- '(fci-rule-color "#d0bf8f")
  '(fill-column 80)
- '(flycheck-disabled-checkers
-   (quote
-    (javascript-standard javascript-jscs javascript-jshint)))
  '(gc-cons-threshold 100000000)
  '(global-hl-line-mode t)
  '(indent-tabs-mode nil)
@@ -44,7 +32,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (markdown-mode json-mode fill-column-indicator yaml-mode exec-path-from-shell flycheck helm-projectile magit atom-one-dark-theme)))
+    (atom-one-dark-theme helm-projectile magit)))
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
  '(tab-width 4)
@@ -55,10 +43,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-(add-hook 'js-mode-hook 'linum-mode)
-(add-hook 'js-mode-hook 'column-number-mode)
-(add-hook 'js-mode-hook 'flycheck-mode)
 
 (defun toggle-line-spacing ()
   "Toggles line-spacing value between 0 and 0.5"
@@ -74,5 +58,4 @@
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (global-set-key (kbd "C-x p f") 'helm-projectile-find-file)
-(global-set-key (kbd "C-x t f") 'fci-mode)
 (global-set-key (kbd "C-x g") 'magit-status)
