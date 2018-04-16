@@ -5,5 +5,6 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-  exec sway
+  # see /usr/share/wayland-sessions/sway-custom.desktop
+  exec sway-custom
 fi
