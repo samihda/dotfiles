@@ -69,6 +69,11 @@
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
 
+(defun dotemacs ()
+  "Opens .emacs"
+  (interactive)
+  (find-file "~/.emacs"))
+
 (defun toggle-line-spacing ()
   "Toggles line-spacing value between 0 and 0.5"
   (interactive)
