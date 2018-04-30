@@ -61,9 +61,11 @@
  ;; If there is more than one, they won't work right.
  )
 
+(add-hook 'js-mode-hook 'add-node-modules-path)
 (add-hook 'js-mode-hook 'linum-mode)
 (add-hook 'js-mode-hook 'column-number-mode)
 (add-hook 'js-mode-hook 'flycheck-mode)
+(add-hook 'js-mode-hook 'prettier-js-mode)
 
 (defun toggle-line-spacing ()
   "Toggles line-spacing value between 0 and 0.5"
