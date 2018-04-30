@@ -43,6 +43,8 @@
  '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
  '(js-indent-level 2)
+ '(js2-mode-show-parse-errors nil)
+ '(js2-mode-show-strict-warnings nil)
  '(make-backup-files nil)
  '(menu-bar-mode nil)
  '(package-selected-packages
