@@ -67,6 +67,8 @@
 (add-hook 'js-mode-hook 'flycheck-mode)
 (add-hook 'js-mode-hook 'prettier-js-mode)
 
+(add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
+
 (defun toggle-line-spacing ()
   "Toggles line-spacing value between 0 and 0.5"
   (interactive)
