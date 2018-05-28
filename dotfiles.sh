@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd
+cd || exit 1
 
 git clone --separate-git-dir=.dotfiles https://github.com/samihda/dotfiles.git .dotfiles-tmp
 
