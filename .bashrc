@@ -5,7 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export HISTCONTROL=ignoreboth:erasedups
+HISTSIZE=5000
+HISTFILESIZE=5000
+export HISTCONTROL=ignoreboth:erasedups # ignoreboth -> ignore duplicates and commands with spaces
 
 alias ls='ls --color=auto'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
