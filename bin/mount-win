@@ -1,3 +1,6 @@
 #!/bin/bash
 
+# https://wiki.archlinux.org/index.php/Udisks
 udisksctl mount -b /dev/sda2
+
+# mount USB: https://wiki.archlinux.org/index.php/USB_storage_devices
