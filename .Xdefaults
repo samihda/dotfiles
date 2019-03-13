@@ -7,6 +7,8 @@ URxvt.font: -xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso10646-1
 ! URxvt.boldFont: xft:monospace:style=Bold
 ! URxvt.italicFont: xft:monospace:style=Italic
 
+URxvt.scrollBar: false
+
 
 ! Base16 Default Dark
 ! Scheme: Chris Kempson (http://chriskempson.com)
