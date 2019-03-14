@@ -55,7 +55,7 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
 input "1:1:AT_Translated_Set_2_keyboard" {
     # see `man 7 xkeyboard-config`
     xkb_layout us,de
-    xkb_options grp:shifts_toggle
+    xkb_options ctrl:nocaps,grp:shifts_toggle
 }
 
 
