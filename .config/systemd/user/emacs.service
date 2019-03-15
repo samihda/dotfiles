@@ -11,3 +11,6 @@ Restart=on-failure
 
 [Install]
 WantedBy=default.target
+
+# systemctl enable --user emacs
+# systemctl start --user emacs
