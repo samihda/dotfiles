@@ -11,6 +11,9 @@ export HISTCONTROL=ignoreboth:erasedups # ignoreboth -> ignore duplicates and co
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
+alias temacs='emacsclient -t'
+
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 PS1='[\W] \$ '
