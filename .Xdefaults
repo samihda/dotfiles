@@ -1,7 +1,7 @@
 ! see /usr/share/fonts/misc/fonts.dir
 ! or /usr/share/fonts/local/fonts.dir
 
-URxvt.font: -xos4-terminus-bold-r-normal--18-180-72-72-c-100-iso10646-1
+URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 ! URxvt.font: xft:monospace
 ! URxvt.boldItalicFont: xft:monospace:style=Bold Italic
 ! URxvt.boldFont: xft:monospace:style=Bold
