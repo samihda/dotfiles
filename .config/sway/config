@@ -5,7 +5,10 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-font Misc Tamsyn Regular 10
+# see /usr/share/fonts/misc/fonts.dir
+# or /usr/share/fonts/local/fonts.dir
+font pango:Unifont
+
 
 ### Variables
 #
