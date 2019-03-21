@@ -226,9 +226,6 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pacmd list-sinks | awk
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pacmd list-sinks | awk '/* index:/{print $3}') -5%
 bindsym XF86AudioMute exec pactl set-sink-mute $(pacmd list-sinks | awk '/* index:/{print $3}') toggle
 
-# Hide borders: none|vertical|horizontal|both|smart
-hide_edge_borders both
-
 #
 # Status Bar:
 #
