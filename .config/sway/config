@@ -20,9 +20,9 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term urxvt
+set $term termite
 # Your preferred application launcher
-set $menu dmenu_path | dmenu | xargs swaymsg exec
+set $menu compgen -c | bemenu | xargs swaymsg exec
 
 ### Output configuration
 #
