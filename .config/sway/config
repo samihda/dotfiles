@@ -203,7 +203,7 @@ bindsym $mod+r mode "resize"
 
 set $mode_system System (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym s exec --no-startup-id systemctl hybrid-sleep, mode "default"
     bindsym h exec --no-startup-id systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
@@ -242,7 +242,7 @@ include /etc/sway/config.d/*
 exec swayidle -w \
          timeout 600 'swaymsg "output * dpms off"' \
               resume 'swaymsg "output * dpms on"' \
-         timeout 900 'systemctl suspend' \
+         timeout 900 'systemctl hybrid-sleep' \
          before-sleep 'swaylock -f -c 000000'
 
 exec --no-startup-id redshift
