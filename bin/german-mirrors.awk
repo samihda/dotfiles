@@ -2,6 +2,7 @@
 
 /^## Germany$/ {
     f=1;
+    next;
 }
 
 f==0 {
