@@ -13,6 +13,6 @@ f==0 {
     exit;
 }
 
-{
+/#Server = https:\/\// {
     print substr($0, 2);
 }
