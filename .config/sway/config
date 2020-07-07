@@ -241,6 +241,7 @@ include /etc/sway/config.d/*
 
 for_window [app_id="firefox"] inhibit_idle fullscreen
 for_window [app_id="skypeforlinux"] inhibit_idle focus
+for_window [app_id="spotify"] inhibit_idle focus
 
 exec swayidle -w \
          timeout 600 'swaymsg "output * dpms off"' \
