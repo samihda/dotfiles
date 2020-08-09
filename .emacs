@@ -62,3 +62,4 @@
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (global-set-key (kbd "C-x p f") 'helm-projectile-find-file)
 (global-set-key (kbd "C-x g") 'magit-status)
+(global-unset-key (kbd "C-z"))
