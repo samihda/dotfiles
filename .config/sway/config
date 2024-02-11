@@ -249,4 +249,4 @@ exec swayidle -w \
          timeout 900 'systemctl hybrid-sleep' \
          before-sleep 'swaylock -f -c 000000'
 
-exec --no-startup-id redshift
+exec --no-startup-id gammastep
