@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 HISTSIZE=5000
-HISTFILESIZE=5000
+HISTFILESIZE=10000
 export HISTCONTROL=ignoreboth:erasedups # ignoreboth -> ignore duplicates and commands with spaces
 export MOZ_ENABLE_WAYLAND=1
 
