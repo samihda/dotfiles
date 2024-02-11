@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # https://wiki.archlinux.org/index.php/Udisks
-udisksctl mount -b /dev/sda2
-
 # mount USB: https://wiki.archlinux.org/index.php/USB_storage_devices
+
+udisksctl unmount -b /dev/sdb1
+udisksctl power-off -b /dev/sdb1

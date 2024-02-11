@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# https://wiki.archlinux.org/index.php/Udisks
+# mount USB: https://wiki.archlinux.org/index.php/USB_storage_devices
+# lsblk -f
+
+udisksctl mount -b /dev/sdb1
+
