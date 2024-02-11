@@ -22,5 +22,3 @@ alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # https://www.vidarholen.net/contents/blog/?p=878
 # https://news.ycombinator.com/item?id=23520240
 PROMPT_COMMAND='printf "⏎%$((COLUMNS-1))s\\r\\033[K"'
-
-PS1='[\W] \$ '
