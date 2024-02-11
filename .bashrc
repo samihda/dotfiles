@@ -7,7 +7,7 @@
 
 HISTSIZE=5000
 HISTFILESIZE=10000
-export HISTCONTROL=ignoreboth:erasedups # ignoreboth -> ignore duplicates and commands with spaces
+HISTCONTROL=ignoreboth:erasedups # ignoreboth -> ignore duplicates and commands with spaces
 export MOZ_ENABLE_WAYLAND=1
 export XDG_CURRENT_DESKTOP=sway # for xdg-desktop-portal-wlr, i.e., screen capture
 
