@@ -7,7 +7,7 @@
  '(custom-safe-themes
    '("f46ebf04f3877132b28a245b063a51bc8c4c2a68bbf58ef4257fae613a6447c4" default))
  '(package-selected-packages
-   '(vterm helm-projectile helm magit go-mode atom-one-dark-theme)))
+   '(magit restclient vterm helm-projectile helm go-mode atom-one-dark-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
