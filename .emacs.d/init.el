@@ -36,6 +36,11 @@
 
 (use-package vterm :defer) ;; not in melpa stable currently
 
+(use-package restclient ;; not in melpa stable currently
+  :defer
+  :ensure t
+  :mode (("\\.http\\'" . restclient-mode)))
+
 (use-package helm
   :bind (("M-x" . 'helm-M-x)
          ("C-x b" . helm-buffers-list)
