@@ -38,8 +38,8 @@
 
 (use-package helm
   :bind (("M-x" . 'helm-M-x)
-		 ("C-x b" . helm-buffers-list)
-		 ("C-x C-f" . helm-find-files))
+         ("C-x b" . helm-buffers-list)
+         ("C-x C-f" . helm-find-files))
   :config (setopt helm-split-window-inside-p t))
 
 (use-package helm-projectile
