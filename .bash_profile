@@ -3,6 +3,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
+export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
