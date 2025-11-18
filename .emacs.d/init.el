@@ -67,6 +67,7 @@
 (use-package go-mode
   :defer
   :hook (go-mode . eglot-ensure)
+  :hook (go-mode . company-mode)
   :hook (go-mode . display-line-numbers-mode)
   :config
   (defun eglot-format-buffer-on-save ()
