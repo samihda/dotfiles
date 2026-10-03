@@ -3,5 +3,6 @@
 # https://wiki.archlinux.org/index.php/Udisks
 # mount USB: https://wiki.archlinux.org/index.php/USB_storage_devices
 
+# sdc1
 udisksctl unmount -b /dev/sdb1
 udisksctl power-off -b /dev/sdb1
