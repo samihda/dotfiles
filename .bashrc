@@ -8,8 +8,6 @@
 HISTSIZE=5000
 HISTFILESIZE=10000
 HISTCONTROL=ignoreboth:erasedups # ignoreboth -> ignore duplicates and commands with spaces
-export MOZ_ENABLE_WAYLAND=1
-export XDG_CURRENT_DESKTOP=sway # for xdg-desktop-portal-wlr, i.e., screen capture
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
