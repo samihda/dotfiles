@@ -259,7 +259,7 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // spawn-at-startup "alacritty" "-e" "fish"
-spawn-at-startup "gammastep"
+spawn-at-startup "wlsunset" "-l" "52.5" "-L" "13.4" "-T" "5800" "-t" "3300"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
